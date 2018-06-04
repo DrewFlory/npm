@@ -1,0 +1,287 @@
+h1, h3, p, span, a, ul {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Nav Bar */
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 30px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav li a {
+  color: white;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin-top: -15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 0px;
+  color: white;
+}
+
+.top-left {
+  vertical-align: middle;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: white;
+}
+
+/* Header Section */
+
+header {
+  margin: 0 auto;
+  background-color: #075B78;
+}
+
+input[type=text] {
+  background-color: rgb(31, 82, 111);
+  width: 1150px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.logo img {
+  height: 30px;
+  width: 80px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+header ul {
+  display: inline-block;
+  float: right;
+  margin-top: -40px;
+}
+
+header li {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: white;
+}
+
+ul img {
+  height: 30px;
+  width: 30px;
+}
+
+.background-img img {
+  height: 400px;
+  width: 100%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 300px;
+  width: 555px;
+  padding-left: 178px;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 162px;
+}
+
+.text a {
+  display: block;
+  width: 114px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  background-color: rgb(240, 146, 51);
+  margin-top: 29px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: white;
+}
+
+.txt h1 {
+  font-size: 38px;
+}
+
+/* Section 1 */
+
+.sec-1 img {
+  height: 500px;
+  width:510px;
+  margin-left: 18rem;
+}
+
+.sec-1 {
+  background-color: rgb(39, 53, 71);
+  height: 34rem;
+}
+
+.sec1text  {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  margin-left: 860px;
+  position: absolute;
+  top: 580px;
+  color: white;
+}
+
+.sec-1 h3 {
+  font-size: 30px;
+  width: 400px;
+}
+
+.btn a {
+  display: block;
+  background-color: rgb(203, 56, 55);
+  width: 115px;
+  margin-top: 30px;
+  border-radius: 21px;
+  font-size: 12px;
+  padding-top: 11px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.sec-1 a {
+  color: white;
+}
+
+.sec-1 span {
+  font-size: 12px;
+  padding-top: 11px;
+  color: white;
+}
+
+.sec-1 ul {
+  height: 20px;
+  margin-top: 40px;
+  font-size: 12px;
+  padding-bottom: 10px;
+  width: 400px;
+}
+
+.sec-1 li {
+  padding-bottom: 10px;
+}
+
+.btn {
+  margin-top: 4rem;
+  height: 78px;
+  margin-left: 20px;
+}
+
+.btn span {
+  margin-left: 80px;
+}
+
+/* Section 2 */
+
+.sec-2 {
+  top: 1013px;
+  display: flex;
+  background-image: url('./images/forklift.svg');
+  background-size: cover;
+  width: 98.9%;
+  height: 400px;
+  flex-direction: column;
+  position: absolute;
+}
+
+.sec2text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: 200px;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 28px;
+  color: white;
+}
+
+.sec-2 h3  {
+  font-size: 35px;
+}
+
+.sec-2 a {
+  display: block;
+  width: 85px;
+  margin-top: 30px;
+  border-radius: 20px;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  background-color: rgb(49, 68, 88);
+  color:white;
+}
+
+.sec-2 p {
+  margin-top: -12px;
+  width: 20rem;
+}
+
+/* Section 3 */
+
+.sec-3 {
+  position: absolute;
+  top: 90rem;
+  margin-left: -15rem;
+}
+
+.sec-3 a {
+  color: rgb(83, 88, 98);
+}
+
+.heading {
+  text-align: center;
+  margin-left: 32rem;
+  padding-bottom: 10px;
+  color: rgb(83, 88, 98);
+}
+
+#find, #discover, #build {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 80px;
+  width: 200px;
+  padding-bottom: 40px;
+}
+
+.packages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 28rem;
+  padding-bottom: 40px;
+}
+
+.packages p {
+  margin-top: -10px;
+  color: rgb(135, 145, 156);
+  font-size: 12px;
+}
+
+.heading p {
+  font-size: 15px;
+}
